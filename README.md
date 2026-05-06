@@ -1,7 +1,8 @@
-# BCS601-USN4MW23CS076 — Cloud Computing Lab Project
+# BCS601-4MW23CS076 — Cloud Computing Lab Project
 
 **Subject:** Cloud Computing (BCS601)  
-**USN:** 4mw23cs076  
+**USN:** 4MW23CS076  
+**Name:** Mohith Raj K Kotian  
 **Repo:** `bcs601_4mwcs076`  
 **Platform:** Render (free tier)  
 **Language:** Python 3 + Flask
@@ -10,8 +11,7 @@
 
 ## 🚀 Live URL
 
-> **https://bcs601-usn4mw23cs076.onrender.com**  
-> *(Replace with your actual Render URL after deployment)*
+> **https://bcs601-4mwcs076.onrender.com**
 
 ---
 
@@ -31,7 +31,7 @@
 bcs601_4mwcs076/
 ├── app.py            # Main Flask application
 ├── requirements.txt  # Python dependencies
-├── Procfile          # Render/Heroku start command
+├── Procfile          # Render start command
 └── README.md         # This file
 ```
 
@@ -61,7 +61,8 @@ python app.py
 3. Connect your GitHub repo `bcs601_4mwcs076`
 4. Set **Build Command:** `pip install -r requirements.txt`
 5. Set **Start Command:** `gunicorn app:app`
-6. Click **Deploy** — Render gives you a free `.onrender.com` URL
+6. Select **Free tier** and click **Deploy Web Service**
+7. Live URL: https://bcs601-4mwcs076.onrender.com
 
 ---
 
@@ -71,3 +72,5 @@ python app.py
 - [Render Deployment Guide](https://render.com/docs/deploy-flask)
 - [Python math.gcd](https://docs.python.org/3/library/math.html#math.gcd)
 - [Python math.factorial](https://docs.python.org/3/library/math.html#math.factorial)
+- [Gunicorn Documentation](https://gunicorn.org/)
+- [GitHub Getting Started](https://docs.github.com/en/get-started)
